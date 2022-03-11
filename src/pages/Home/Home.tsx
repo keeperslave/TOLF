@@ -52,7 +52,7 @@ const HomePage = () => {
   return (
     <Page>
       <Header isVideoStarted={playing} />
-      <HeroSection className="container" id="home">
+      <HeroSection id="home">
         <Transition
           in={!playing}
           timeout={duration}

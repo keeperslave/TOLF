@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const Page = styled.div`
-  padding-top: 60px;
   background: #000;
 `;
 
 export const HeroSection = styled.div`
   position: relative;
-  height: 820px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +28,8 @@ export const HeroSection = styled.div`
     transition: opacity 2000ms ease-in-out;
 
     .hero-image {
-      height: 376px;
+      height: 43%;
+      min-height: 257px;
       width: auto;
     }
   }
